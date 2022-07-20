@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+ /*----------------------- top banner style here -----------------*/
+section{
+    padding-bottom: 20px;
+}
+.banner{
+    background-color: #1E1E1E;
+    color:white;
+    display: flex;
+    border-radius: 15px;
+    width:85vw;
+    height:90vh ;
+    margin: 40px auto;
+    
+    
+}
+.banner-img,.banner-text{
+    width: 50%;
+    height: 100vh;
+}
+.title{
+    font-size:120px;
+    font-weight: 700;
+}
+#button1{
+    padding: 7px 18px;
+    margin-top: 25px;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+}
+.banner-img img{
+    width:100%;
+    height: 85.10vh;
+    margin-left: -60px;
+    margin-top: 22px;
+    position: relative;
+}
+.banner-text{
+   margin:20px 50px;
+}
+
+
+
+
+
+
+
+
+
+/*----------- card style start here --------------*/
+.parent-div{
+    display: flex;
+    margin: 0 70px;
+    
+    
+    
+}
+
+ .side-menu{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    background-color: #161616;
+    width: 250px;
+    height:200px ;
+    border-radius: 10px;
+    margin: 0 15px;
+   }
+   .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    
+   }
+  .div-grid{
+    width:210px ;
+    height: 260px;
+    background-color:white;
+    border-radius: 10px;
+    border: 0.5px solid rgb(233, 224, 224);
+  }
+  .image{
+    width:210px
+}
+    .common{
+        
+        margin: 15px ;
+        background-color:white;
+        width:200px;
+        height:30px;
+        border-radius: 7px;
+        border: none;
+    }
+    .color{
+      background-color: #DD0000;  
+    }
+ /*--------- icon style start here--------- */
+.inline{
+    display: flex;
+    
+}
+.icon{
+    display: flex;
+    margin:0 0 0 25px;
+    
+   
+}
+.style{
+    display: flex;
+    margin:10px 10px;
+   
+} 
+/*--------- icon style start here--------- */
+
+
+
+.Transfer{
+    margin:15px;
+    padding:1px  15px ;
+}
+
+.para{
+    margin: 0 0 0 10px;
+}
+
+
+   
+
+/*-------------------- footer style start here------------------------ */
+
+
+footer{
+    background-color: #161616;
+    width:100vw;
+    height:50vh;
+    display: fixed;
+   
+}.footer-text{
+    display: flex;
+    justify-content: center-;
+    align-items: center;
+}
+
+.title1{
+    margin-top: 35px;
+    color: white;
+}
+.hr{
+    margin:30px 20px ;
+    opacity: 0.5;
+}
+
+
+.container {
+    display: flex;
+   justify-content: center;
+  }
+  
+    .container div a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 0 20px;
+        font-weight: 500;
+    }
+
+
+
+
+    /*
+    ---------------------------- media qurey start here ------------------------------*/
+    @media only screen and (max-width: 500px) {
+        .container{
+        align-items: center;
+         display:flex;
+         flex-direction: column;
+         justify-content: center;
+         column-gap: 30px;
+         
+         
+        }
+        .container div a{
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: 500;
+            color: aquamarine;
+            column-gap: 30px;
+            position: relative;
+            padding-top: 200px;
+           
+            }
+            footer{
+                height:40vh;
+            }
+
+      }
+/*
+    ----------------------------   banner media qurey start here ------------------------------*/
+    @media only screen and (max-width: 500px){
+        
+        section{
+            padding-bottom: 10px;
+        }
+        .banner{
+            background-color: #1E1E1E;
+            color:white;
+            display: flex;
+            flex-direction: column;
+            border-radius: 15px;
+            width:400px;
+            height:605px ;
+            margin: 20px auto;
+}
+        
+}
+        .title{
+        font-size:20px;
+        font-weight: 400;
+         text-align: center;
+ }
+        #button1{
+           
+            background-color: #DD0000;
+            border: none;
+            border-radius: 5px;
+        }
+        .banner-img{
+
+          margin:-10px 165px;
+         
+        }
+        .banner-img img{
+           height: 250px;
+            width: 230px;
+        }
+        .banner-text{
+            margin: 30px auto;
+          text-align: center;
+          justify-content: center;
+        }
+
+
+
+
+
+
+        /* cards responsive style start here */
+        @media only screen and (max-width: 500px)
+        {
+        
+            .parent-div{
+               
+                
+                
+                
+            }
+            
+             .side-menu{
+                display: flex;
+                flex-direction: column;
+               align-items: center;
+               justify-content: center;
+                border: 1px solid rgb(211, 201, 201);
+                width: 250px;
+                height:200px ;
+                border-radius: 10px;
+                margin: 0 15px;
+               }
+               .cards{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-gap: 15px;
+                
+               }
+              .div-grid{
+                width:210px ;
+                height: 260px;
+                background-color:white;
+                border-radius: 10px;
+                border: 0.5px solid rgb(233, 224, 224);
+              }
+              .image{
+                width:210px
+            }
+                .common{
+                    
+                    margin: 15px ;
+                    background-color:white;
+                    width:200px;
+                    height:30px;
+                    border-radius: 7px;
+                    border: none;
+                }
+                .color{
+                  background-color: #DD0000;  
+                }
+             /*--------- icon style start here--------- */
+            .inline{
+                display: flex;
+                
+            }
+            .icon{
+                display: flex;
+                margin:0 0 0 25px;
+                
+               
+            }
+            .style{
+                display: flex;
+                margin:10px 10px;
+               
+            }  
+        
+        
+        
+        
+        
+        
+           
+
+        }
+        
+
+    

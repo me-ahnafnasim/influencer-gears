@@ -2,4 +2,68 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+   
 }
+/*----------------- header section style start he ---------------------------*/
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px;
+}
+
+.menu-bar{
+    display: flex; 
+}
+.menu-bar li{
+   list-style: none;
+   padding:10px;
+   left: 90px;
+   position: relative;
+}
+
+.menu-bar li a{
+    text-decoration: none;
+}
+.header-text{
+    
+    right:100px;
+    position: relative;
+}
+/*----------------- header section style start he ---------------------------*/
+   
+   
+ 
+   
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.img-text{
+    display: flex;
+}
+.image{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 370px, 370px;
+  }
+  .image img{
+    width: 370px;
+    height: 370px;
+  } 
+  .child{
+    width:50%;
+    border: 1px solid red;
+    margin: 60px;
+  }
+
+  button{
+    background-color: #E02C6D;
+    border-radius: 15px;
+    padding: 8px 20px;
+    border:none;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700px;
+  }
